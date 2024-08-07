@@ -1,0 +1,45 @@
+:root {
+    /* Colors  */
+    --clr-primary-text: #333e48;
+    --clr-primary-border: #cfcfcf;
+
+    /* Font size  */
+    --fs-sm: 14px;
+    --fs-base: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-2xl: 32px;
+
+    /* Border radius */
+    --rounded: 0.25rem;
+}
+
+*,
+*::after,
+*::before {
+    font-family: "Open sans";
+    color: var(--clr-primary-text);
+}
+
+h1 {
+    font-size: var(--fs-2xl);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 9rem;
+    border: 1px solid var(--clr-primary-border);
+    border-radius: var(--rounded);
+    background: white;
+}

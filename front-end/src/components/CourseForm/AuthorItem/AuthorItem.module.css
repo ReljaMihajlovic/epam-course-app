@@ -1,0 +1,14 @@
+.wrapper{
+  display: flex;
+  gap: 1rem;
+}
+.button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--rounded);
+}
+.button:hover{
+  background-color: #e4e4e4;
+  
+}

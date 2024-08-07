@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background: #007298;
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border-radius: var(--rounded);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.icon{
+  flex-shrink: 0;
+}

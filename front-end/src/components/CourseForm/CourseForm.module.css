@@ -1,0 +1,28 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.group{
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.authors{
+  display: flex;
+  justify-content: space-between;
+}
+.authorsWrapper{
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-self: flex-end;
+}

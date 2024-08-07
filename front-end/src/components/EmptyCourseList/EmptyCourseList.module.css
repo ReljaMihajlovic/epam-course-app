@@ -1,0 +1,14 @@
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: auto;
+}
+.title{
+  margin-bottom: 1.5rem;
+}
+.subtitle{
+  font-size: var(--fs-base);
+  font-weight: normal;
+  margin-bottom: 2rem;
+}

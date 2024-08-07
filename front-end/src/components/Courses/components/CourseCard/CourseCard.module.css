@@ -1,0 +1,34 @@
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: var(--rounded);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-left: 0.5rem solid #333E48;
+}
+.title {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.body {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 4fr minmax(0, 3fr);
+    gap: 2rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.authors {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.options{
+  margin-top: auto;
+  display: flex;
+  gap: 0.875rem;
+  flex-wrap: wrap;
+}

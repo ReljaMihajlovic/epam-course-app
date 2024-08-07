@@ -1,0 +1,19 @@
+@import url("./styles/reset.css");
+@import url("./styles/global.css");
+
+.site {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 100dvh;
+    background: #f7f7f7;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    background: white;
+    margin-top: 3rem;
+    text-align: center;
+}
